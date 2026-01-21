@@ -8,7 +8,7 @@ const strengths = [
   { icon: FaUsers, title: 'Team Collaboration', description: 'Effective communication and teamwork' },
   { icon: FaCode, title: 'Adaptability', description: 'Flexible in dynamic environments' },
 ];
-
+//////////////
 const AboutSection = () => (
   <section id="about" className="py-5 bg-white">
     <div className="container text-center">

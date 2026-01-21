@@ -1,27 +1,30 @@
 import React from 'react';
 import { Card, Row, Col } from 'react-bootstrap';
-import { Mail, Phone,  } from 'lucide-react';
+import { MdEmail, MdPhone } from 'react-icons/md'; // استخدام أيقونات من react-icons
 
 const ContactSection = () => (
-  <section id="contact" className="py-5 bg-light" >
+  <section id="contact" className="py-5 bg-light">
     <div className="container text-center">
       <h2 className="mb-4">Contact Me</h2>
 
-      <Row xs={1} md={3} className="mb-4">
-        <Col>
-          <Card className="shadow-sm h-100">
+      <Row
+        xs={1}
+        md={2}
+        className="mb-4 justify-content-center g-4"
+      >
+        <Col md={4}>
+          <Card className="shadow-sm h-100 text-center">
             <Card.Body>
-              <Mail size={28} className="mb-2 text-primary" />
+              <MdEmail size={36} className="mb-2 text-primary" />
               <Card.Title>Email</Card.Title>
-              <Card.Text>aladawi12reem6@gmail.com
-</Card.Text>
+              <Card.Text>aladawi12reem6@gmail.com</Card.Text>
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          <Card className="shadow-sm h-100">
+        <Col md={4}>
+          <Card className="shadow-sm h-100 text-center">
             <Card.Body>
-              <Phone size={28} className="mb-2 text-primary" />
+              <MdPhone size={36} className="mb-2 text-primary" />
               <Card.Title>Phone</Card.Title>
               <Card.Text>+968 95417778</Card.Text>
             </Card.Body>
