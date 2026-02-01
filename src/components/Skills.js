@@ -1,4 +1,3 @@
-import { Languages } from 'lucide-react';
 import React from 'react';
 import { Badge, Row, Col, Card } from 'react-bootstrap';
 
