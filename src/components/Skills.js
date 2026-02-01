@@ -1,18 +1,17 @@
+import { Languages } from 'lucide-react';
 import React from 'react';
 import { Badge, Row, Col, Card } from 'react-bootstrap';
 
 const skills = {
-  Programming: ['Java', 'Python', 'JavaScript', 'PHP'],
-  Frameworks: ['React.js', 'Node.js'],
-  Data: ['Data Analysis', 'Machine Learning', 'SQL'],
-  Concepts: ['OOP', 'MVC Architecture', 'CRUD Operations']
-};
+  'Programming Languages': ['Java', 'Python', 'JavaScript', 'PHP', 'HTML', 'CSS'],
+  'Development Tools': ['React.js', 'Node.js', 'Flutter', 'MERN Stack', 'MYSQL', 'Firebase' , "Spring Boot"],
 
+};
 const SkillsSection = () => (
   <section id="skills" className="py-5 bg-light">
     <div className="container text-center">
       <h2 className="mb-4">Skills</h2>
-      <Row xs={1} md={2} lg={4} className="g-4">
+      <Row xs={1}md={2} className="g-4">
         {Object.entries(skills).map(([category, items]) => (
           <Col key={category}>
             <Card className="h-100 shadow-sm">

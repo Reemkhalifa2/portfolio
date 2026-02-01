@@ -11,7 +11,7 @@ const HeroSection = () => {
         Reem Khalifa Aladawi
       </h1>
       <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-        Software Engineering Graduate | Data Analysis & Full-Stack Developer
+        Software Engineering Graduate | Full-Stack Developer & Data Analysis
       </p>
 
       {/* CTAs */}

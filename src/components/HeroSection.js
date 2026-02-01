@@ -9,7 +9,7 @@ const HeroSection = () => (
   >
     <h1 className="display-4 fw-bold">Reem Khalifa Aladawi</h1>
     <p className="lead mb-4">
-      Software Engineering Graduate | Data Analysis & Full-Stack Developer
+      Software Engineering Graduate | Full-Stack Developer & Data Analysis 
     </p>
 
     <div className="mb-4">

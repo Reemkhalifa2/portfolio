@@ -4,25 +4,24 @@ import { Code } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Tesla Stock Prediction',
-    description: 'Predicting TSLA stock prices using machine learning.',
-    tech: ['Python', 'ML', 'Data Analysis']
+    title: 'Graduation Project – Leveraging Data Analysis to Enhance Counseling Strategies',
+
+description: 'A data-driven project that uses student academic data to support and improve counseling strategies through meaningful analysis and insights.',
+
+tech: ['KNIME', 'Data Analysis', 'Python']
   },
+  
   {
-    title: 'Graduation Project',
-    description: 'Early warning system for students at risk.',
-    tech: ['React', 'Python', 'Data Analytics']
-  },
-  {
-    title: 'Sticker Arrangement App',
-    description: 'Mobile app for virtually arranging and buying stickers.',
-    tech: ['React Native', 'UI/UX Design']
-  },
-  {
-    title: 'Full-Stack Web Project',
-    description: 'CRUD application with React & Node.js backend.',
-    tech: ['React', 'Node.js', 'MongoDB']
-  }
+    title: 'Tour Compass',
+description: 'A travel planning mobile application that helps users discover popular destinations, plan trips, manage itineraries, and convert currencies.',
+tech: ['Flutter', 'Mobile App Development', 'CRUD Operations'],
+Link: 'https://github.com/Reemkhalifa2/Tour-Compass'
+  }, 
+  {title: 'Health Companion',
+description: 'A wellness app designed with an accessibility-first and user-centered approach.',
+tech: ['Figma', 'UX/UI Design', 'Prototyping'],
+Link: 'https://www.figma.com/design/NnYKWPheEDjEwZbDRxdK3W/Untitled?node-id=0-1&p=f&t=x8SHxXucJmeZnf73-0'
+}
 ];
 
 const ProjectsSection = () => (
@@ -37,6 +36,9 @@ const ProjectsSection = () => (
                 <Code size={36} className="mb-3 text-primary" />
                 <Card.Title>{proj.title}</Card.Title>
                 <Card.Text>{proj.description}</Card.Text>
+               <Card.Text> <a href={proj.Link} target="_blank" rel="noreferrer">
+                View Project</a></Card.Text>
+
                 {proj.tech.map((t) => <Badge bg="primary" key={t} className="me-1">{t}</Badge>)}
               </Card.Body>
             </Card>

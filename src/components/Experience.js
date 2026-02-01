@@ -4,16 +4,16 @@ import { Briefcase } from 'lucide-react';
 
 const experiences = [
   {
-    role: 'Compliance Verification Analyst Trainee',
-    company: 'Vodafone',
-    year: '2025',
-    description: 'Performed data validation, compliance checks, and report analysis.'
+    role: 'Data Validation Analyst Trainee',
+    company :'PMO(Security Complaince) - Vodafone',
+    year: 'NOv,25 - Jan,2026',
+    description: 'Data validation, compliance checks, report and Documintation.'
   },
   {
-    role: 'Intern / Rihal Project',
-    company: 'University Project',
-    year: '2024',
-    description: 'Worked on software development and data analysis using Python and React.'
+    role: 'Software Engineering Trainee',
+    company: 'Softeware Engineer - Rihal',
+    year: 'Jul,2025 - Aug,2025',
+    description: 'Java, Databases(SQL), API'
   }
 ];
 
