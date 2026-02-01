@@ -8,7 +8,8 @@ const projects = [
 
 description: 'A data-driven project that uses student academic data to support and improve counseling strategies through meaningful analysis and insights.',
 
-tech: ['KNIME', 'Data Analysis', 'Python']
+tech: ['KNIME', 'Data Analysis', 'Python'],
+Link : 'file:///C:/course%20project/FinalReport-%20Group4.pdf'
   },
   
   {
