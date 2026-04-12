@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import { FaGithub, FaLinkedin } from 'react-icons/fa'; // تأكد من تثبيت react-icons
-
+import { FaGithub, FaLinkedin } from 'react-icons/fa'; 
 const HeroSection = () => (
   <section
     id="hero"
@@ -15,6 +14,14 @@ const HeroSection = () => (
     <div className="mb-4">
       <Button href="#projects" variant="primary" className="me-2">
         View Projects
+      </Button>
+      <Button 
+        href="https://drive.google.com/file/d/1KRgONtCL9ZC0_xF7rGTTFvgrVGDHwtc5/view?usp=drive_link"
+        target="_blank"
+        rel="noopener noreferrer"
+        variant="success"
+      >
+         View Resume
       </Button>
       <Button href="#contact" variant="outline-primary">
         Contact Me
